@@ -1,0 +1,15 @@
+---
+applications:
+- name: service-pre-screen-user 
+  buildpack: https://github.com/cloudfoundry/nodejs-buildpack.git#v1.5.21
+  memory: 256M
+  disk_quota: 256M
+  instances: 1
+  host: service-pre-screen-user
+  path: .  
+  env:
+    NODE_ENV: PRODUCTION
+#   services:
+#    - any service
+
+    
