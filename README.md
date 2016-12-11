@@ -1,4 +1,5 @@
 # service-pre-screen-user
+[![Build Status](https://travis-ci.org/pre-screen/service-pre-screen-user.svg?branch=master)](https://travis-ci.org/pre-screen/service-pre-screen-user)
 
 This repo contains initial boilerplate code for a very simple `Hapi server`, with `Swagger Rest API`.
 
