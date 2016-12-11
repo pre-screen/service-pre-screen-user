@@ -14,7 +14,7 @@ module.exports = function (server) {
             notes: 'Returns a list of feeds',
             tags: ['api'],
             validate: {
-                //No input to validat 
+                //No input to validate
             }
         }
     });

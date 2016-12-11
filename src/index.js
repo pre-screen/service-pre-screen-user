@@ -12,8 +12,8 @@ const log = require('./config/logger'),
     HapiSwagger = require('hapi-swagger'),
     Pack = require('../package'),
     settings = require('./config/settings'),
-    apiRoute = require(__dirname + '/routes/apiRoute'),
-    appRoute = require(__dirname + '/routes/appRoute');
+    appRoute = require(__dirname + '/routes/appRoute'),
+    apiRoute = require(__dirname + '/routes/apiRoute');
 
 
 /**
